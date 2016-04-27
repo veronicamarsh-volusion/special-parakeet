@@ -1,0 +1,55 @@
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+
+	width: 600px;
+	margin: 96px auto;
+}
+
+li {
+	text-decoration: none;
+}
+
+#todolist-container {
+	padding: 0;
+	margin-top: 64px;
+}
+
+#new-task-input {
+	width: 360px;
+	font-size: 16px;
+	line-height: 1.4em;
+
+	border: none;
+	border-bottom: 1px solid #88888;
+	margin: 0px 12px;
+}
+
+	#new-task-input:focus {
+		outline: none;
+		border-bottom-color: #0D99FC;
+	}
+
+button {
+	font-size: 16px;
+	line-height: 1.4em;
+
+	border: none;
+	border-radius: 3px;
+
+	color: white;
+	background: #0D99FC;
+
+}
+
+.task {
+	list-style: none;
+	font-size: 22px;
+	line-height: 1.8em;
+}
+
+	.task.completed {
+		text-decoration: line-through;
+		opacity: 0.5;
+	}
